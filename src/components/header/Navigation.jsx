@@ -7,7 +7,7 @@ const Navigation = () => {
     { path: "/contact", title: "Contact" },
   ];
 
-  const user = true;
+  const user = false;
 
   if (!user) {
     navLinks.push(
